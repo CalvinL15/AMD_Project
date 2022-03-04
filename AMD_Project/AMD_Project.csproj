@@ -1,0 +1,71 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.13" />
+    <PackageReference Include="Npgsql" Version="6.0.3" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Npgsql.EntityFrameworkCore.PostgreSQL.Design" />
+    <None Remove="Npgsql" />
+    <None Remove="System.Configuration.ConfigurationManager" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\Films.cshtml" />
+    <Content Remove="Views\Home\FilmRelatedPersons.cshtml" />
+    <Content Remove="Views\Home\FilmsRatingsManagement.cshtml" />
+    <Content Remove="Views\Home\FilmCrews.cshtml" />
+    <Content Remove="Views\Home\Template.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Views\Home\Films.cshtml">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>Films.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Home\FilmRelatedPersons.cshtml">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>FilmRelatedPersons.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Home\FilmRatings.cshtml">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>FilmRatings.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Home\FilmCrews.cshtml">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>FilmCrews.cs</LastGenOutput>
+    </None>
+    <None Include="Views\Home\Users.cshtml">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>Users.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\Home\Films.cs">
+      <DependentUpon>Films.cshtml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Home\FilmRelatedPersons.cs">
+      <DependentUpon>FilmRelatedPersons.cshtml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Home\FilmsRatingsManagement.cs">
+      <DependentUpon>FilmRatings.cshtml</DependentUpon>
+    </Compile>
+    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\Home\FilmRatings.cs">
+      <DependentUpon>FilmRatings.cshtml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Home\FilmCrews.cs">
+      <DependentUpon>FilmCrews.cshtml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Home\Template.cs">
+      <DependentUpon>Users.cshtml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Home\Users.cs">
+      <DependentUpon>Users.cshtml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+</Project>

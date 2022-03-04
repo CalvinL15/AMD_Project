@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "3CNNqeReVxGTUsSe82GNOXAMHRttTwhCjT15fSChXAdDRZmWby9W8fvmZZEYeu7mWTIomXENMnHZ6v26dUFfdw==",
+  "success": true,
+  "projectFilePath": "/Users/calvinliu15/Desktop/TU Chemnitz/Semester I/AMD/AMD_Project/AMD_Project/AMD_Project.csproj",
+  "expectedPackageFiles": [
+    "/Users/calvinliu15/.nuget/packages/microsoft.aspnetcore.mvc.razor.extensions/5.0.13/microsoft.aspnetcore.mvc.razor.extensions.5.0.13.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/microsoft.aspnetcore.mvc.razor.runtimecompilation/5.0.13/microsoft.aspnetcore.mvc.razor.runtimecompilation.5.0.13.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/microsoft.aspnetcore.razor.language/5.0.13/microsoft.aspnetcore.razor.language.5.0.13.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/microsoft.codeanalysis.analyzers/3.0.0/microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/microsoft.codeanalysis.common/3.8.0/microsoft.codeanalysis.common.3.8.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/microsoft.codeanalysis.csharp/3.8.0/microsoft.codeanalysis.csharp.3.8.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/microsoft.codeanalysis.razor/5.0.13/microsoft.codeanalysis.razor.5.0.13.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/microsoft.extensions.dependencymodel/5.0.0/microsoft.extensions.dependencymodel.5.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/npgsql/6.0.3/npgsql.6.0.3.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.configuration.configurationmanager/6.0.0/system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.drawing.common/6.0.0/system.drawing.common.6.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.reflection.metadata/5.0.0/system.reflection.metadata.5.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.security.accesscontrol/6.0.0/system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.security.cryptography.protecteddata/6.0.0/system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.security.permissions/6.0.0/system.security.permissions.6.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/Users/calvinliu15/.nuget/packages/system.windows.extensions/6.0.0/system.windows.extensions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
