@@ -1,6 +1,6 @@
 How to run the project:
 
-1. Initialize your PostgreSQL database by executing the provided initialization script “init_script.sql” in your database server.
+1. Initialize your PostgreSQL database by executing the provided initialization script “init_script.sql” in your own database server.
 2. In the “App.config” file, change the values of each <add> element to your database credentials.
 3. If Visual Studio is installed in your PC, open the “AMD_Project.sln” file in and then run the code in visual studio. Note that ASP.NET Core (v5.0.0) is used as the target framework.
 4. If Visual Studio is not installed, please install the application to run the code. However, if you do not want to install Visual Studio into your PC, you can run the project with the command “dotnet run AMD_Project.csproj” (.NET has to be installed). The file AMD_Project.csproj is inside the folder AMD_Project. 
